@@ -6,8 +6,25 @@ Just a simple wrapper for "[waveform](/superjoe30/waveform)" c script written by
 Installation
 ------------
 
+### Using Composer
+
+``` json
+{
+    "require" : {
+        "polem/waveform" : "*"
+    }
+}
+```
+
 ```
 php composer.phar install
+```
+
+Running tests
+-------------
+
+```
+TODO
 ```
 
 Usage
