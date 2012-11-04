@@ -135,7 +135,7 @@ class WaveformGenerator
      */
     public static function convertAlphaToHex($alpha)
     {
-        return sprintf("%02X", dechex(round($alpha * 255)));
+        return sprintf("%02X", round($alpha * 255));
     }
 
     /**
