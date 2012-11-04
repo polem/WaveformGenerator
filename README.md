@@ -1,7 +1,7 @@
 Waveform Generator
 ==================
 
-Just a simple wraper for "[waveform](superjoe30/waveform)" c script written by Andrew Kelley
+Just a simple wrapper for "[waveform](/superjoe30/waveform)" c script written by "[Andrew Kelley](/superjoe30)"
 
 Installation
 ------------
