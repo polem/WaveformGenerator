@@ -6,7 +6,9 @@ Just a simple wraper for "[waveform](superjoe30/waveform)" c script written by A
 Installation
 ------------
 
+```
 php composer.phar install
+```
 
 Usage
 -----
@@ -18,7 +20,18 @@ include __DIR__ . '/vendor/autoload.php';
 
 use Waveform\WaveformGenerator;
 
+// instanciation with the waveform binary path
 $waveformGenerator = new WaveformGenerator(__DIR__ . '/bin/waveform');
 
-$waveformGenerator->run('medias/audiofile.mp3', 'generated/waveform.png');
+// configuration
+$waveformGenerator
+    ->setWidth(720)
+    ->setHeight(120)                                                                                              
+    ->setColorBg('FFFFFF', 1)
+    ->setColorCenter('FFCC00', 1)
+    ->setColorOuter('FFCC00', 1)
+    ;   
+
+// generation
+$waveformGenerator->run('medias/audiofile.mp3', 'waveform.png');
 ```
