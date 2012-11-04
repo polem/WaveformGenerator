@@ -1,0 +1,17 @@
+{
+    "name": "paulemileminy/Waveform",
+    "description": "Waveform generator for php 5.3",
+    "require": {
+        "symfony/process": "v2.1.0"
+    },
+    "autoload": {
+        "psr-0": {"Waveform": "lib/"}
+    },
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Paul-Emile MINY",
+            "email": "paulemile.miny@gmail.com"
+        }
+    ]
+}
