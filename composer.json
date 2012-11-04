@@ -1,5 +1,5 @@
 {
-    "name": "paulemileminy/waveform",
+    "name": "polem/waveform",
     "description": "Waveform generator for php 5.3",
     "require": {
         "symfony/process": "v2.1.0"
