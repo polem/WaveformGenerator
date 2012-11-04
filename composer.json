@@ -1,6 +1,9 @@
 {
     "name": "polem/waveform",
     "description": "Waveform generator for php 5.3",
+    "keywords": ["waveform"],
+    "homepage": "https://github.com/polem/WaveformGenerator",
+    "license": "MIT",
     "require": {
         "symfony/process": "v2.1.0"
     },
