@@ -150,8 +150,6 @@ class WaveformGenerator
             $command.= sprintf(' --%s %s', $key, $value);
         }
 
-        var_dump($command);
-
         return new Process($command);
     }
 }
