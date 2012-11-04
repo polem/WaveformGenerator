@@ -5,7 +5,7 @@
     "homepage": "https://github.com/polem/WaveformGenerator",
     "license": "MIT",
     "require": {
-        "symfony/process": "v2.1.0"
+        "symfony/process": "*"
     },
     "autoload": {
         "psr-0": {"Waveform": "lib/"}
