@@ -145,7 +145,7 @@ class WaveformGenerator
      */
     protected function getProcess()
     {
-        $command = sprintf('%s %s %s', $this->binPath, $this->audiofile, $this->pngfile);
+        $command = sprintf('%s "%s" "%s"', $this->binPath, $this->audiofile, $this->pngfile);
         foreach ($this->options as $key => $value) {
             $command.= sprintf(' --%s %s', $key, $value);
         }
